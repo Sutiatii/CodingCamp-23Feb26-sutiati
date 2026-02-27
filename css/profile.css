@@ -1,0 +1,46 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+    background: white;
+    border-bottom: 1px solid #ddd;
+}
+
+.navbar img {
+    height: 40px;
+}
+.menu a {
+    margin-left: 20px;
+    font-weight: bold;
+
+}
+
+.profile-section {
+    display: flex;
+    justify-content: center;
+    padding: 60px 20px;
+}
+.profile-card {
+    background: white;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 15px;
+    gap: 40px;
+    padding: 40px;
+    width: 100%;
+}
+
+.profile-img img{
+    width: 250px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 10px;
+    
+}
+table td{
+    padding: 10px 50px;
+    font-size: 1.1rem;
+    color: grey;
+}
