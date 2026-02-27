@@ -1,0 +1,66 @@
+.navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 50px;
+    background: white;
+    border-bottom: 1px solid #ddd;
+}
+
+.navbar img{
+    height: 40px;
+}
+
+.menu a {
+    margin-left: 20px;
+    font-weight: bold;
+}
+
+.menu a.active{
+    color: lightgreen;
+}
+
+.portofolio-section {
+    text-align: center;
+    padding: 60px 20px;
+}
+
+.portofolio-section h1{
+    font-size: 2.5rem;
+    margin-bottom: 50px;
+}
+.location-container{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    flex-wrap: wrap;
+}
+
+.location-card {
+    text-align: center;
+}
+
+.circle-box {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 4px solid yellow;
+    margin-bottom: 15px;
+
+}
+
+.circle-box img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.location-card h3{
+    font-size: 1.5rem;
+    color: grey;
+}
+
+.location-card:hover .circle-box{
+    transform: scale(1.1);
+}

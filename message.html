@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Message Us</title>
+    <script src="https://cdn.tailwindcss.com"></script><link rel="stylesheet" href="css/message.css">
+</head>
+<body>
+    <nav class="navbar"><img src="assets/Wolf.jpg" alt="Logo">
+    <div class="menu"><a href="index.html">Home</a><a href="profile.html">Our Profile</a><a href="portofolio.html">Portofolio</a><a href="message.html" class="active">Message Us</a></div></nav>
+    <main class="message-container"><h1>Message Us</h1><div class="flex-container"><form id="messageForm" class="form-box"><input type="text" id="input-nama" placeholder="Nama Lengkap" required><input type="date" id="input-tgl" required> <div class="gender-box"><label><input type="radio" name="gender" value="Laki-Laki" checked>Man</label>
+    <label><input type="radio" name="gender" value="Perempuan">Woman</label>
+    </div>
+    <textarea id="input-pesan" placeholder="Say Something..." required></textarea><button type="submit">Submit</button>
+</form>
+</div></main>
+<script src="js/message.js"></script>
+</body>
+</html>
